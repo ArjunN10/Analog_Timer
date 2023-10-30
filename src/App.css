@@ -1,0 +1,90 @@
+
+.App {
+  text-align: center;
+
+}
+
+.clock {
+  width: 200px;
+  height: 200px;
+  border: 2px solid gold; 
+  border-radius: 50%;
+  position: relative;
+  background-color: #1b1a1a;   
+
+}
+
+.hand {
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  background-color: gold; 
+  top: 50%;
+  left: 50%; 
+  transform-origin: 0;
+  transform: translate(-50%, -50%); 
+  transition: transform 0.5s cubic-bezier(0.4, 2.1, 0.28, 1);
+}
+
+.hand.hour {
+  background-color: rgb(232, 231, 242); 
+  transform: rotate(90deg);
+}
+
+.hand.minute {
+  background-color: rgb(0, 255, 55);
+  transform: rotate(180deg);
+}
+
+.hand.second {
+  background-color: red; 
+  transform: rotate(270deg);
+}
+
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #333; 
+  color: gold; 
+}
+
+
+
+
+.number {
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+  color: gold; 
+  transform: translate(-50%, -50%);
+}
+
+.number.hour {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.number.one { top: 30px; left: 70%; }
+.number.two { top: 60px; right: 20px; }
+.number.three { top: 50%; right: 10px; }
+.number.four { bottom: 45px; right: 20px; }
+.number.five { bottom: 18px; left: 75%; }
+.number.six { bottom: 8px; left: 50%; }
+.number.seven { bottom: 18px; left: 55px; }
+.number.eight { top: 67%; left: 25px; }
+.number.nine { top: 95px; left: 15px; }
+.number.ten { top: 60px; right: 155px; }
+.number.eleven { bottom: 150px; left: 55px; }
+.number.twelve { top: 20px; left: 50%; }
+
+.title{
+  padding-right: 70px;
+  color:rgb(244, 187, 42);
+  text-decoration: underline;
+font-family: 'Times New Roman', Times, serif;
+font-size: xx-large;
+}
