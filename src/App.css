@@ -27,7 +27,7 @@
 }
 
 .hand.hour {
-  background-color: rgb(232, 231, 242); 
+  background-color: rgb(59, 45, 217); 
   transform: rotate(90deg);
 }
 
@@ -83,6 +83,7 @@
 
 .title{
   padding-right: 70px;
+  padding-bottom: 150px;
   color:rgb(244, 187, 42);
   text-decoration: underline;
 font-family: 'Times New Roman', Times, serif;
