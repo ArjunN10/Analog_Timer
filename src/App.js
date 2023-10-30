@@ -31,7 +31,7 @@ const App = () => {
       <h3 className='title'>ANALOG CLOCK</h3>
       <div className="clock">
 
-        <div className="number one">1</div>
+        {/* <div className="number one">1</div>
         <div className="number two">2</div>
         <div className="number three">3</div>
         <div className="number four">4</div>
@@ -42,7 +42,7 @@ const App = () => {
         <div className="number nine">9</div>
         <div className="number ten">10</div>
         <div className="number eleven">11</div>
-        <div className="number twelve">12</div>
+        <div className="number twelve">12</div> */}
 
         <div className="hand hour" style={{ transform: `rotate(${hourDegrees}deg)` }} />
         <div className="hand minute" style={{ transform: `rotate(${minuteDegrees}deg)` }} />

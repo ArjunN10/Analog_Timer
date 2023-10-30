@@ -27,7 +27,7 @@
 }
 
 .hand.hour {
-  background-color: rgb(59, 45, 217); 
+  background-color: rgb(238, 238, 241); 
   transform: rotate(90deg);
 }
 
@@ -55,7 +55,7 @@
 
 
 
-.number {
+/* .number {
   position: absolute;
   font-size: 14px;
   font-weight: bold;
@@ -79,7 +79,7 @@
 .number.nine { top: 95px; left: 15px; }
 .number.ten { top: 60px; right: 155px; }
 .number.eleven { bottom: 150px; left: 55px; }
-.number.twelve { top: 20px; left: 50%; }
+.number.twelve { top: 20px; left: 50%; } */
 
 .title{
   padding-right: 70px;
